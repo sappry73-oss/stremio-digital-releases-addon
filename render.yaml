@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: stremio-digital-releases-addon
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
