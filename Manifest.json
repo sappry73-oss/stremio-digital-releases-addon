@@ -1,0 +1,29 @@
+{
+  "id": "com.digital.releases.addon",
+  "version": "1.0.0",
+  "name": "Digital Releases",
+  "description": "New digital movie releases with rent, buy, and streaming availability.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "digital_new",
+      "name": "Digital Releases - New"
+    },
+    {
+      "type": "movie",
+      "id": "digital_rent",
+      "name": "Digital Releases - Rent"
+    },
+    {
+      "type": "movie",
+      "id": "digital_buy",
+      "name": "Digital Releases - Buy"
+    }
+  ]
+}
