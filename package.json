@@ -1,12 +1,12 @@
 {
-  "name": "stremio-digital-releases-addon",
+  "name": "digital-releases-addon",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "update": "node updater.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.6.8",
+    "express": "^4.19.2"
   }
 }
